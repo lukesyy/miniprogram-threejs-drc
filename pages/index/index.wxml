@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+    <canvas type="webgl" id="canvas" style="width: 100%; height:100%;" bind:touchstart="handleTouchstart" bind:touchmove="handleTouchMove" bind:touchend="handleTouchEnd">
+    </canvas>
+</view>
+<view class="conten">
+    内容一
+</view>
+<view class="conten">
+    内容二
+</view>
